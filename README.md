@@ -1,8 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Tic Tac Toe
 
-In the project directory, you can run:
+This is an implementation of the official react tutorial: https://reactjs.org/tutorial/tutorial.html
+
+To go a litle further I also implemented the ideas mentioned in the end of the tutorial:
+
+1. Display the location for each move in the format (col, row) in the move history list.
+2. Bold the currently selected item in the move list.
+3. Rewrite Board to use two loops to make the squares instead of hardcoding them.
+4. Add a toggle button that lets you sort the moves in either ascending or descending order.
+5. When someone wins, highlight the three squares that caused the win.
+6. When no one wins, display a message about the result being a draw.
 
 ### `npm start`
 
@@ -11,11 +20,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
