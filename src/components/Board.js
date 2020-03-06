@@ -8,7 +8,7 @@ export default class Board extends React.Component {
       if(this.props.player_move === i) {
         player_move = true
       } else if(Array.isArray(this.props.player_move)){
-        this.props.player_move.map((value) => {
+        this.props.player_move.map((value) => function(){
           if(value === i){
             player_move = true
           }
