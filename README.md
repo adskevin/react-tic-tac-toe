@@ -20,6 +20,16 @@ To go a litle further I also implemented the ideas mentioned in the end of the t
 5. When someone wins, highlight the three squares that caused the win.
 6. When no one wins, display a message about the result being a draw.
 
+## Gitpod
+
+To easily try this project, you can use [Gitpod](https://www.gitpod.io/).
+
+Throught this [link](http://gitpod.io/#github.com/adskevin/react-tic-tac-toe), you can directly access this repository inside an web environment.
+
+You just need to login with you Github and wait for `npm` to auto run `install`. After that, the preview will automatically show up in the right side of the screen.
+
+You can see and edit the code inside Gitpod environment, so feel free to test and send me some feedback. I'm new to React, so this would help me a lot.
+
 ## Basic Commands
 
 ### `npm start`
