@@ -13,6 +13,8 @@ To go a litle further I also implemented the ideas mentioned in the end of the t
 5. When someone wins, highlight the three squares that caused the win.
 6. When no one wins, display a message about the result being a draw.
 
+## Basic Commands
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
