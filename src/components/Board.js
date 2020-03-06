@@ -4,13 +4,13 @@ import Square from './Square'
 
 export default class Board extends React.Component {
     renderSquare(i) {
-      let player_move = null;
+      let player_move = null
       if(this.props.player_move === i) {
-        player_move = true;
+        player_move = true
       } else if(Array.isArray(this.props.player_move)){
         this.props.player_move.map((value) => {
           if(value === i){
-            player_move = true;
+            player_move = true
           }
         })
       }
@@ -22,19 +22,19 @@ export default class Board extends React.Component {
           player_move={player_move}
           key={i}
         />
-      );
+      )
     }
   
     render(){
-      var divsArray = [];
-      var squareIndex = 0;
+      var divsArray = []
+      var squareIndex = 0
       for(var divNumber = 0; divNumber <= 2; divNumber++){
-        var rowOfSquares = [];
+        var rowOfSquares = []
         for(var squarePerRow = 0; squarePerRow <= 2; squarePerRow++){
           rowOfSquares.push(
             this.renderSquare(squareIndex)
-          );
-          squareIndex++;
+          )
+          squareIndex++
         }
         divsArray.push(
           <div className="board-row" key={divNumber}>{rowOfSquares}</div>
@@ -45,6 +45,6 @@ export default class Board extends React.Component {
         <div>
           {divsArray}
         </div>
-      );
+      )
     }
   }

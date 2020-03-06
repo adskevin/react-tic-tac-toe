@@ -1,82 +1,82 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
-  }
+}
 
-  ul {
-    width: 200px;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    list-style-type: none;
-    margin-top: 5px;
-    padding: 0;
-  }
+ul {
+  width: 200px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 5px;
+  padding: 0;
+}
 
-  ul li {
-    width: 100%;
-  }
+ul li {
+  width: 100%;
+}
 
-  ul li button{
-    width: 100%;
-  }
+ul li button{
+  width: 100%;
+}
 
-  .desc {
-    flex-direction: column-reverse;
-  }
-  
-  .board-row:after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
-  
-  .square {
-    background: #fff;
-    border: 1px solid #999;
-    float: left;
-    font-size: 24px;
-    font-weight: bold;
-    line-height: 34px;
-    height: 34px;
-    margin-right: -1px;
-    margin-top: -1px;
-    padding: 0;
-    text-align: center;
-    width: 34px;
-  }
+.desc {
+  flex-direction: column-reverse;
+}
 
-  .player_move {
-    background: rgb(224, 253, 190);
-  }
-  
-  .square:focus {
-    outline: none;
-  }
-  
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-  
-  .game {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .game-info {
-    margin-left: 20px;
-  }
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
 
-  .strong_text {
-    font-weight: bold;
-  }
-  
-  .order-button {
-    margin-top: 15px;
-    width: 100%;
-  }
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.player_move {
+  background: rgb(224, 253, 190);
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.strong_text {
+  font-weight: bold;
+}
+
+.order-button {
+  margin-top: 15px;
+  width: 100%;
+}
   

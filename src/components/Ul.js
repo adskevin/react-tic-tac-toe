@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default class Ol extends React.Component {
+export default class Ul extends React.Component {
     constructor(){
-      super();
+      super()
       this.state={
         className: 'asc'
       }
@@ -12,11 +12,11 @@ export default class Ol extends React.Component {
       if(this.state.className === 'desc'){
         this.setState({
           className: 'asc'
-        });
+        })
       } else {
         this.setState({
           className: 'desc'
-        });
+        })
       }
     }
   
@@ -26,6 +26,6 @@ export default class Ol extends React.Component {
           <button className="order-button" onClick={() => this.changeOrder()}>Change order</button>
           <ul className={this.state.className}>{this.props.moves}</ul>
         </>
-      );
+      )
     }
   }
