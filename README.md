@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is an implementation of the official react tutorial: https://reactjs.org/tutorial/tutorial.html
 
+The tutorial guides throught making a game which:
+
+1. Lets you play tic-tac-toe,
+2. Indicates when a player has won the game,
+3. Stores a game’s history as a game progresses,
+4. Allows players to review a game’s history and see previous versions of a game’s board.
+
 To go a litle further I also implemented the ideas mentioned in the end of the tutorial:
 
 1. Display the location for each move in the format (col, row) in the move history list.
